@@ -7,7 +7,13 @@ from plotagem import grafico_pertinencia, grafico_saida_agregada
 def preprocessamento(df, n_cases):
     df = df[['Industry_Feedback_Score', 'Skill_Gap_Index', 'Technology_Integration_Level', 'Recommended_Curriculum_Adjustment_%']]
 
-    df = df.sample(n=n_cases, random_state=42)
+    # df = df.sample(n=n_cases, random_state=42)
+
+    # selecionar 3 casos específicos para garantir diversidade
+    caso_1 = [10, 0.95, 5, 45]
+    caso_2 = [50, 0.5, 50, 25]
+    caso_3 = [95, 0.1, 95, 5]
+    df = pd.DataFrame([caso_1, caso_2, caso_3], columns=['Industry_Feedback_Score', 'Skill_Gap_Index', 'Technology_Integration_Level', 'Recommended_Curriculum_Adjustment_%'])
 
     return df
 
