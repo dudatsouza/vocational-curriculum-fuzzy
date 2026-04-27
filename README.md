@@ -152,48 +152,15 @@ O programa irá executar, analisando três casos de teste pré-definidos e geran
 ---
 
 
-1. **Hopcroft, J. E.; Motwani, R.; Ullman, J. D.**
-   *Introduction to Automata Theory, Languages, and Computation*.
-   3ª ed. Pearson, 2007.
-   — Referência clássica para:
+1. Ziya. Vocational Curriculum Adaptability Dataset. Kaggle, 2025. Disponível em: https://www.kaggle.com/datasets/ziya07/vocational-curriculum-adaptability-dataset. Acesso em: 26 abr. 2026.
 
-   * remoção de ε-transições;
-   * construção por subconjuntos (AFN → AFD);
-   * minimização de autômatos determinísticos.
+2. SILVA, Alisson Marques da. Inteligência Computacional: Introdução à Lógica Fuzzy. Notas de aula, CEFET-MG Divinópolis, 2023.
 
-2. **Sipser, M.**
-   *Introduction to the Theory of Computation*.
-   3ª ed. Cengage Learning, 2012.
-   — Base teórica para:
+3. SILVA, Alisson Marques da. Inteligência Computacional: Conjuntos Fuzzy. Notas de aula, CEFET-MG Divinópolis, 2023.
 
-   * equivalência entre AFN, AFN-ε e AFD;
-   * definição formal de ε-fecho;
-   * preservação de linguagem durante conversões.
+4. SILVA, Alisson Marques da. Inteligência Computacional: Operações e Relações Fuzzy. Notas de aula, CEFET-MG Divinópolis, 2023.
 
-3. **Aho, A. V.; Lam, M. S.; Sethi, R.; Ullman, J. D.**
-   *Compilers: Principles, Techniques, and Tools (Dragon Book)*.
-   2ª ed. Pearson, 2006.
-   — Fundamenta:
-
-   * construção de autômatos a partir de expressões regulares;
-   * uso prático de AFNs e AFDs em análise léxica.
-
-4. **Kozen, D. C.**
-   *Automata and Computability*.
-   Springer, 1997.
-   — Referência formal para:
-
-   * provas de equivalência entre modelos de autômatos;
-   * fundamentos matemáticos da minimização de AFDs.
-
-5. **Cormen, T. H.; Leiserson, C. E.; Rivest, R. L.; Stein, C.**
-   *Introduction to Algorithms*.
-   3ª ed. MIT Press, 2009.
-   — Base algorítmica para:
-
-   * uso de Union-Find na fusão de estados equivalentes;
-   * análise de complexidade dos algoritmos aplicados.
-
+5. SILVA, Alisson Marques da. Inteligência Computacional: Sistemas de Inferência Fuzzy. Notas de aula, CEFET-MG Divinópolis, 2023.
 </details>
 
 <br>
